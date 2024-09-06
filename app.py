@@ -9,7 +9,7 @@ import requests
 import urllib.parse
 from datetime import datetime
 
-# Getting api_key from file to allow for hiding, changing or updating keys 
+# Getting api_key from ./api_key file 
 try:
     with open("api_key", "r") as file:
         api_key = file.read().strip()
